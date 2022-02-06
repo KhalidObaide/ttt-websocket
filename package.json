@@ -1,0 +1,23 @@
+{
+  "name": "ttt-websocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start:server": "tsc && node dist/server.js",
+    "start:client": "tsc && node dist/client.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "uuid": "^8.3.2",
+    "ws": "^8.4.2"
+  }
+}
